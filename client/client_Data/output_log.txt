@@ -18,21 +18,21 @@ Platform assembly: D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\Googl
 Loading D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\Google.Protobuf.dll into Unity Child Domain
 Platform assembly: D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\protobuf-net.dll (this message is harmless)
 Loading D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\protobuf-net.dll into Unity Child Domain
-- Completed reload, in  0.096 seconds
+- Completed reload, in  0.062 seconds
 Platform assembly: D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.175659 ms
+UnloadTime: 0.947059 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 2618 -> priority: 1 
+  Thread -> id: 29f4 -> priority: 1 
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 4.119941 ms
+UnloadTime: 4.239840 ms
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 368.
-Total: 0.597627 ms (FindLiveObjects: 0.046186 ms CreateObjectMapping: 0.027525 ms MarkObjects: 0.285983 ms  DeleteObjects: 0.237464 ms)
+Total: 0.591562 ms (FindLiveObjects: 0.050385 ms CreateObjectMapping: 0.022393 ms MarkObjects: 0.281318 ms  DeleteObjects: 0.236531 ms)
 
 Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
  
@@ -82,21 +82,21 @@ Platform assembly: D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\Googl
 Loading D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\Google.Protobuf.dll into Unity Child Domain
 Platform assembly: D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\protobuf-net.dll (this message is harmless)
 Loading D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\protobuf-net.dll into Unity Child Domain
-- Completed reload, in  0.080 seconds
+- Completed reload, in  0.107 seconds
 Platform assembly: D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.858884 ms
+UnloadTime: 2.831847 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 411c -> priority: 1 
+  Thread -> id: 2334 -> priority: 1 
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 4.500631 ms
+UnloadTime: 5.918887 ms
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 368.
-Total: 0.604158 ms (FindLiveObjects: 0.040121 ms CreateObjectMapping: 0.020060 ms MarkObjects: 0.291115 ms  DeleteObjects: 0.251927 ms)
+Total: 2.680691 ms (FindLiveObjects: 0.132028 ms CreateObjectMapping: 0.046653 ms MarkObjects: 1.404726 ms  DeleteObjects: 1.094483 ms)
 
 Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
  
@@ -131,6 +131,106 @@ Player: { "pid": 2 }
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
 Start Game
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Move over
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Move over
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Move over
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Initialize engine version: 5.4.1f1 (649f48bbbf0f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 950M (ID=0x139a)
+    Vendor:   NVIDIA
+    VRAM:     2010 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\Google.Protobuf.dll (this message is harmless)
+Loading D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\Google.Protobuf.dll into Unity Child Domain
+Platform assembly: D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\protobuf-net.dll (this message is harmless)
+Loading D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\protobuf-net.dll into Unity Child Domain
+- Completed reload, in  0.081 seconds
+Platform assembly: D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.852819 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 15bc -> priority: 1 
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.245216 ms
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 368.
+Total: 0.716592 ms (FindLiveObjects: 0.041054 ms CreateObjectMapping: 0.023793 ms MarkObjects: 0.352697 ms  DeleteObjects: 0.298113 ms)
+
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Connect: 172.25.176.239:8999
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Connect Suc
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+PlayerController singleton already created!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+born player: 3 pos: { "x": 161, "z": 134 }
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+born player: 3 pos: { "x": 161, "z": 134 }
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Player: { "pid": 3 }
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+202 count:　3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Start Game
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 

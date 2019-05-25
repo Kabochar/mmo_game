@@ -30,12 +30,31 @@ func OnConnecionAdd(conn ziface.IConnection) {
 	fmt.Println("=====> Player pidId = ", player.Pid, " arrived ====")
 }
 
+//当客户端断开连接的时候的hook函数
+func OnConnectionLost(conn ziface.IConnection) {
+	//获取当前连接的Pid属性
+	pid, _ := conn.GetProperty("pid")
+
+	//根据pid获取对应的玩家对象
+	player := core.WorldMgrObj.GetPlayerByPid(pid.(int32))
+
+	//触发玩家下线业务
+	if pid != nil {
+		player.LostConnection()
+	}
+
+	fmt.Println("====> Player ", pid, " left =====")
+
+}
+
 func main() {
 	//创建服务器句柄
 	s := znet.NewServer("MMO Game -ZINX")
 
 	//注册客户端连接建立和丢失函数
 	s.SetOnConnStart(OnConnecionAdd)
+	// 注册 hook 函数，下线处理
+	s.SetOnConnStop(OnConnectionLost)
 
 	//注册一些路由业务
 	s.AddRouter(2, &api.WorldChatApi{})
