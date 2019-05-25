@@ -18,21 +18,21 @@ Platform assembly: D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\Googl
 Loading D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\Google.Protobuf.dll into Unity Child Domain
 Platform assembly: D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\protobuf-net.dll (this message is harmless)
 Loading D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\protobuf-net.dll into Unity Child Domain
-- Completed reload, in  0.061 seconds
+- Completed reload, in  0.064 seconds
 Platform assembly: D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.156998 ms
+UnloadTime: 1.183124 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 29d0 -> priority: 1 
+  Thread -> id: 42f0 -> priority: 1 
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 3.777507 ms
+UnloadTime: 3.761178 ms
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 368.
-Total: 0.576166 ms (FindLiveObjects: 0.035456 ms CreateObjectMapping: 0.017261 ms MarkObjects: 0.279452 ms  DeleteObjects: 0.242596 ms)
+Total: 0.624685 ms (FindLiveObjects: 0.044787 ms CreateObjectMapping: 0.027525 ms MarkObjects: 0.309310 ms  DeleteObjects: 0.241663 ms)
 
 Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
  
@@ -78,21 +78,21 @@ Platform assembly: D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\Googl
 Loading D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\Google.Protobuf.dll into Unity Child Domain
 Platform assembly: D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\protobuf-net.dll (this message is harmless)
 Loading D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\protobuf-net.dll into Unity Child Domain
-- Completed reload, in  0.084 seconds
+- Completed reload, in  0.070 seconds
 Platform assembly: D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: D:\CodeSpace\Go\src\mmo_game\client\client_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.264767 ms
+UnloadTime: 0.849087 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 2914 -> priority: 1 
+  Thread -> id: 23fc -> priority: 1 
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 4.686777 ms
+UnloadTime: 3.964119 ms
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 368.
-Total: 0.564969 ms (FindLiveObjects: 0.033123 ms CreateObjectMapping: 0.014929 ms MarkObjects: 0.272454 ms  DeleteObjects: 0.243063 ms)
+Total: 0.753915 ms (FindLiveObjects: 0.041521 ms CreateObjectMapping: 0.023793 ms MarkObjects: 0.355030 ms  DeleteObjects: 0.330770 ms)
 
 Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
  
