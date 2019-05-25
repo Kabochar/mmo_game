@@ -24,6 +24,9 @@ func OnConnecionAdd(conn ziface.IConnection) {
 	//将该连接绑定属性Pid
 	conn.SetProperty("pid", player.Pid)
 
+	//同步周边玩家上线信息，与现实周边玩家信息
+	player.SyncSurrounding()
+
 	fmt.Println("=====> Player pidId = ", player.Pid, " arrived ====")
 }
 
@@ -36,6 +39,7 @@ func main() {
 
 	//注册一些路由业务
 	s.AddRouter(2, &api.WorldChatApi{})
+	s.AddRouter(3, &api.MoveApi{}) //移动
 
 	//启动服务
 	s.Serve()
